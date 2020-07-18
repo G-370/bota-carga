@@ -50,6 +50,15 @@ html{
 	align: center;
 }
 
+.calculator-outputs {
+	width: 60%;
+	margin: 3px auto 3px auto;
+	padding: 5px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
 .calculator-inputs > input {
 	border-radius: 30px;
 	padding: 10px 10px;
