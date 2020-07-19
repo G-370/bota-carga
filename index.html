@@ -1,9 +1,11 @@
 <!DOCTYPE html> 
-<html> 
+<html lang="pt-BR"> 
 
 <head>
+	<title>Calculadora bota peso</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 	<meta name="HandheldFriendly" content="true">
+	<meta charset="utf-8">
 	<link rel="stylesheet" href="style.css">
 	<script src="main.js"></script>
 </head>
@@ -14,16 +16,20 @@
 		<h3>Calculadora de Carga x Tempo</h3>
 		<hr>
 		<div class="calculator-outputs">
-			<span id="m">(m)min</span>
-			<span id="s">(s)s</span>
+			<span title="Quantidade de minutos" id="m">(m)min</span>
+			<span title="Quantidade de segundos" id="s">(s)s</span>
 		</div>
 		<div class="calculator-inputs">
-			TARA (Kg)
-			<input id="tara" type="text"></input>
-			PESO BRUTO (Kg)
-			<input id="pesobruto" type="text"></input>
-			CARGA (Kg/s)
-			<input id="carga" type="text" value="112.18"></input>
+
+			<label for="tara">TARA (Kg)</label>
+			<input id="tara" name="tara" type="text"></input>
+
+			<label for="pesobruto">PESO BRUTO (Kg)</label>
+			<input id="pesobruto" name="peso bruto" type="text"></input>
+
+			<label for="carga">CARGA (Kg/s)</label>
+			<input id="carga" name="carga" type="text" value="112.18"></input>
+
 			<button onclick="calcular()">CALCULAR</button>
 			</br>
 		</div>
